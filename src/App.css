@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: 'Open-Sans';
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+animation: 2s fadeIn;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+font-family: "Open-Sans";
+src: local("Open-Sans"),
+  url(./fonts/OpenSans-VariableFont_wdth\,wght.woff) format("woff");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@keyframes fadeIn {
+from {
+  opacity: 0;
 }
-
-.App-link {
-  color: #61dafb;
+to {
+  opacity: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

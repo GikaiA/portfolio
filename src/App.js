@@ -1,21 +1,30 @@
-import './App.css';
+import "./App.css";
+import NavMenu from "./NavMenu/NavMenu";
+import Homepage from "./Homepage/Homepage";
+import Project from "./Project/Project";
+import Skills from "./Skills/Skills";
+import About from "./About/About";
+import Footer from "./Footer/Footer";
+import { DarkModeProvider } from "./DarkModeContext";
+import "./global.css";
+import Background from "./Background";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {" "}
+      <Background />
+      <DarkModeProvider>
+        <div>
+          {" "}
+          <NavMenu />
+          <Homepage />
+          <About />
+          <Project />
+          <Skills />
+          <Footer />
+        </div>
+      </DarkModeProvider>
     </div>
   );
 }
