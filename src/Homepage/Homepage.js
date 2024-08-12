@@ -27,7 +27,7 @@ const Homepage = () => {
         <h2 className="name-title">Hi, I'm Gikai</h2>{" "}
         <Typewriter
           options={{
-            strings: ["Aspiring Front-End Developer", "College Student"],
+            strings: ["Aspiring Full-Stack Developer", "College Student"],
             autoStart: true,
             loop: true,
             deleteSpeed: 50,
@@ -41,7 +41,7 @@ const Homepage = () => {
             className="linkedin-icon"
           />
           <SocialIcon
-            url="https://github.com/StaticMaster"
+            url="https://github.com/GikaiA"
             className="github-icon"
             bgColor="grey"
           />

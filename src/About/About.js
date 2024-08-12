@@ -16,7 +16,7 @@ function About() {
       <div className="about-container">
         <img src={aboutme} alt="about-me-pic" className="about-me-img" />
         <p className="about-text">
-          Miami-born coder Gikai discovered his passion for computer science
+          Miami-born coder, Gikai discovered his passion for computer science
           through his uncle's mentorship, evolving into a skilled web developer
           during a transformative internship. Beyond coding, Gikai embraces a
           vibrant life with hobbies like video games, photography, and
